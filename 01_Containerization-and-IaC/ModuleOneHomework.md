@@ -1,4 +1,5 @@
-#Question 1
+# Question 1
+
 Here is the the command and its following results to answer this question:
 ```bash
 hossein@hossein-virtual-machine:~/Documents/DataEngineering-/01_Containerization-and-IaC$ sudo docker run -it --entrypoint=bash python:3.12.8
@@ -19,7 +20,8 @@ root@25af461324b4:/#
 ```
 
 
-#Question2
+# Question2
+
 The `docker-compose.yaml` file mentioned that the `pgAdmin` container needs to connect to the `db` (PostgreSQL) container. The hostname is the name of the `db` service in the `docker-compose.yaml` file, which is set to `postgres`.
 
 Therefore the Hostname is `postgres` and the Port is `5432`
