@@ -17,3 +17,9 @@ root@25af461324b4:/# pip --version
 pip 24.3.1 from /usr/local/lib/python3.12/site-packages/pip (python 3.12)
 root@25af461324b4:/#
 ```
+
+
+#Question2
+The `docker-compose.yaml` file mentioned that the `pgAdmin` container needs to connect to the `db` (PostgreSQL) container. The hostname is the name of the `db` service in the `docker-compose.yaml` file, which is set to `postgres`.
+
+Therefore the Hostname is `postgres` and the Port is `5432`
