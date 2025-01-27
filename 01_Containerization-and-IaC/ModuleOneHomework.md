@@ -25,3 +25,23 @@ root@25af461324b4:/#
 The `docker-compose.yaml` file mentioned that the `pgAdmin` container needs to connect to the `db` (PostgreSQL) container. The hostname is the name of the `db` service in the `docker-compose.yaml` file, which is set to `postgres`.
 
 Therefore the Hostname is `postgres` and the Port is `5432`
+
+# Question3 - 6
+Skipped for the time being
+
+
+# Question7
+
+The correct sequence that describes the workflow for:
+
+##### 1.Downloading the provider plugins and setting up the backend:
+ For this purpose `terraform init`usally does that by initializing the Terraform working directory and downloading the necessary provider plugins and backend configuration.
+
+##### 2.Generating proposed changes and auto-executing the plan:
+To do so `terraform apply -auto-approve` can be used. It automatically applies the changes without requiring user approval for the plan.
+
+##### 3.Remove all resources managed by Terraform:
+`terraform destroy`does this job for us. It destroys all the resources defined in the Terraform configuration.
+
+Therefore the correct answer is: 
+`terraform init`, `terraform apply -auto-approve`, `terraform destroy`
